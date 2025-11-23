@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        city: [lodz, krakow]
+        city: [lodz, krakow, szczecin]
 
     steps:
       - name: Checkout repo
